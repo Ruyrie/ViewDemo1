@@ -78,4 +78,10 @@ public class HeaderView extends RelativeLayout {
             mRightButton.setVisibility(visibility);
         }
     }
+
+    public void setTitleColor(int color) {
+        if (mTitle != null) {
+            mTitle.setTextColor(color);
+        }
+    }
 }
