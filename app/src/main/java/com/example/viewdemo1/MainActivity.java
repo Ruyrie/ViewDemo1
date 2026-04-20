@@ -1,7 +1,6 @@
 package com.example.viewdemo1;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 
@@ -28,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         mHeaderView = findViewById(R.id.header_view);
-        mHeaderView.setTitle("第一页标题");
-        mHeaderView.setLeftText("关闭");
-        mHeaderView.setRightText("下一页");
-        mHeaderView.setLeftBackground(R.color.button_color_selector);
+        //mHeaderView.setTitle("第一页标题");
+        //mHeaderView.setLeftText("关闭");
+        //mHeaderView.setRightText("下一页");
+        //mHeaderView.setLeftBackground(R.color.button_color_selector);
         mHeaderView.setLeftClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,8 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        mHeaderView.setLeftVisibility(View.GONE);
-        mHeaderView.setTitleColor(Color.RED);
+        //mHeaderView.setLeftVisibility(View.GONE);
     }
 }

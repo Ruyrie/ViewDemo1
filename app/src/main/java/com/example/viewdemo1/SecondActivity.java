@@ -25,9 +25,8 @@ public class SecondActivity extends AppCompatActivity {
             return insets;
         });
         mHeaderView = findViewById(R.id.header_view);
-        mHeaderView.setTitle("第二页标题");
-        mHeaderView.setLeftText("返回");
-        mHeaderView.setRightText("搜索");
+        //mHeaderView.setTitle("第二页标题");
+        //mHeaderView.setLeftText("返回");
         mHeaderView.setLeftClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
