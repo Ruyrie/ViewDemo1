@@ -33,7 +33,7 @@
         app:left_background="@color/button_color_selector"
         app:left_gravity="center"/>
 
-    <TextView
+    <com.example.viewdemo1.view.MyTextView
         android:layout_width="200dp"
         android:layout_height="120dp"
         android:gravity="center"
